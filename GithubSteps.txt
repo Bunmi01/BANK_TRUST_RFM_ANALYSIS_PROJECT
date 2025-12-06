@@ -1,0 +1,26 @@
+# 1. Navigate to project
+cd C:\Users\adebo\OneDrive\Desktop\BANK_TRUST_APP
+
+# Code you can use to remove any previous commit if needed
+rmdir /s /q .git 
+
+# 2. create .gitignore file with Data/ and .env
+
+# 3. Configure git
+git config --global user.name "Bunmi01"
+git config --global user.email "yusuffoluwabunmi@gmail.com"
+
+# 4. Initialize repository
+git init
+
+# 5. Add and commit
+git add .
+git commit -m "first commit: Bank Trust RFM Analysis Project"
+
+# 6. Add remote
+git remote add origin https://github.com/Bunmi01/BANK_TRUST_RFM_ANALYSIS_PROJECT.git
+
+# 7. Rename branch and push
+git branch -M main
+git push -u origin main
+
